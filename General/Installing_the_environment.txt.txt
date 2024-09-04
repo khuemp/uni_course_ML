@@ -1,0 +1,35 @@
+For the programming exercises, we will be distributing Jupyter Notebooks.
+
+There are a couple of ways to run Jupyter Notebooks, we provide two options:
+ 1. Install anaconda3 on your computer (if not already installed). You can download it on [1]. Once you have it installed
+     a. You can launch the `Jupyter Notebook` or `Jupyter Lab` using the anaconda navigation panel (follow this instruction: [2][3]) or
+     b  You can launch `jupyter notebook` or `jupyter lab` from your command prompt terminal (follow this instruction: [4][5]).
+ 2. Upload the Jupyter Notebook on Google Colab (see: [6][7])
+
+
+Once you've been able to launch the Jupyter Notebook, you might also need to have a number of python packages installed. The easiest and (our) recommended way is to install anaconda3 (see instruction above). It comes pre-packaged with many scientific python packages, these packages are a superset of the onces we need, so you are already set if you have installed anaconda3.
+
+If you prefer to manually install these python packages, you should ensure you have the following pacakages installed:
+
+  - jupyterlab
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - ipython
+
+
+Optional:
+  - ipympl -> this allows you to display zoomable plots in the notebook.
+
+References
+---
+[1] https://www.anaconda.com/
+[2] https://docs.anaconda.com/anaconda/user-guide/getting-started/#run-python-in-a-jupyter-notebook
+[3] https://docs.anaconda.com/anaconda/navigator/
+[4] https://docs.anaconda.com/anaconda/user-guide/getting-started/#optional-launch-spyder-or-jupyter-notebook-from-the-command-line
+[5] https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+[6] https://colab.research.google.com/
+[7] https://colab.research.google.com/notebooks/basic_features_overview.ipynb
+
+
